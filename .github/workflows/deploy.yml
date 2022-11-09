@@ -11,7 +11,7 @@ jobs:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.syaqtis.mongodb.net
       MONGODB_USERNAME: mongodb
-      MONGODB_DB_NAME: mongodb
+      MONGODB_PASSWORD: mongodb
       PORT: 8080
     environment: testing
     runs-on: ubuntu-latest
